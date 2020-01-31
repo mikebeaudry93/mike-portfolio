@@ -6,13 +6,20 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 
 export class App extends Component {
   render () {
     return (
       <div>
-        <Navbar/>
-        <Home/>
+        <BrowserRouter>
+          <Navbar/>
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/Projects" component={Projects}/>
+            <Route path="/Contact" component={Contact}/>
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }

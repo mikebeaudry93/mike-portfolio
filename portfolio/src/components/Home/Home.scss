@@ -6,7 +6,7 @@
 
 .title {
     background-color: #0B0C10;
-    background-image: url("../../assets/cool-black-backgrounds.jpg");
+    background-image: url("../../assets/b5.jpg");
     height:500px;
     display: flex;
     flex-direction: column;
@@ -95,5 +95,18 @@ body {
 @keyframes run {
   0% { top: -50%};
   100% {top: 110%};
+}
+
+.projects-box {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    height: 200px;
+    width: 200px;
+    background-color: #45A29E;
 }
 

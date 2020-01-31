@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans&display=swap');
+
+.p-font {
+    font-family: 'Martel Sans', sans-serif;
+}
+.projects-page {
+    color: white;
+    // background-color:#45A29E;
+    background-image: url("../../assets/b5.jpg");
+    
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding-top: 50px;
+
+    &__box {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 800px;
+        height: 180px;
+        background-color: #0B0C10;
+    }
+
+    &__project {
+        margin-top: 60px;
+        height: 200px;
+        width: 160px;
+        background-color: grey; 
+    }
+}

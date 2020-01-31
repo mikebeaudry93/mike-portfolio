@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans&display=swap');
+
+.contact {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    background-image: url("../../assets/b5.jpg");
+    height: 100vh;
+
+    &__font {
+        font-family: 'Martel Sans', sans-serif;
+    }
+}
