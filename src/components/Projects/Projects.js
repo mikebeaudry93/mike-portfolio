@@ -13,11 +13,6 @@ export class Projects extends Component {
                 <div className="projects-page__box">
                     <a href="https://youthful-beaver-86231a.netlify.com/"><img className="projects" src={image1} alt="p1"/></a>
                     <a href="https://happy-mahavira-f477ed.netlify.com/"><img className="projects" src={image2} alt="p2"/></a>
-                    <div class="lines">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
                 </div>
             </div>
         )
