@@ -9,6 +9,11 @@ export class Contact extends Component {
                 <p className="contact__font">michaelbeaudry93@gmail.com</p>
                 <p className="contact__font">www.linkedin.com/in/michael-beaudry/</p>
                 {/* <p className="contact__font">6472695512</p>   */}
+                <div class="lines">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                </div>
             </div>
         )
     }
