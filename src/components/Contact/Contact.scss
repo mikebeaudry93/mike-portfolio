@@ -5,6 +5,10 @@
     font-family: 'Martel Sans', sans-serif;
     background-image: url("../../assets/b5.jpg");
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
 
     &__font {
         font-family: 'Martel Sans', sans-serif;
