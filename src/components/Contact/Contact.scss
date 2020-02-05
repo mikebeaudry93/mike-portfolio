@@ -15,4 +15,13 @@
     &__font {
         font-family: 'Martel Sans', sans-serif;
     }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__link:hover {
+        color: grey;
+    }
 }
