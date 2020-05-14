@@ -12,7 +12,6 @@ export class Projects extends Component {
                 <h1 className="p-font">What I've Worked On!</h1>
                 <div className="projects-page__box">
                     <a href="https://youthful-beaver-86231a.netlify.com/"><img className="projects" src={image1} alt="p1"/></a>
-                    <a href="https://happy-mahavira-f477ed.netlify.com/"><img className="projects" src={image2} alt="p2"/></a>
                 </div>
             </div>
         )
