@@ -16,8 +16,8 @@ export class App extends Component {
           <Navbar/>
           <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/Projects" component={Projects}/>
-            <Route path="/Contact" component={Contact}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contact" component={Contact}/>
           </Switch>
         </BrowserRouter>
       </div>
